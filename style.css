@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 20px;
+    margin: 0;
+}
+
+li {
+    transition: color 200ms linear;
+}
+
+li:hover {
+    color: white;
+}
+
+.menu {
+    background-color: #03ff0b; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#home {
+    background-image: url(../img/inicioimagem.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    color: white;
+    text-align: center;
+}
+
+.inicio h1 {
+    font-size: 65px;
+}
+
+.inicio p {
+    font-size: 40px;
+}
+
+#about {
+    background-color: #01ffbb; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.section2-descrição-left-div {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-style-section2 {
+    width: 100%;
+    height: auto;
+}
+
+.section2-descrição-right-div {
+    width: 50%;
+    max-width: 700px;
+    color: white;
+    padding: 20px;
+}
+
+#services {
+    background-color: #65166f; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicos {
+    text-align: center;
+    width: 80%;
+}
+
+.servicos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.form-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-servicos label {
+    font-size: 18px;
+}
+
+.form-servicos input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-servicos button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #013a03; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+}
+
+.form-servicos button:hover {
+    background-color: #45a049; 
+}
+
+#contact {
+    background-color: #142e14; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section4-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section4-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-style-section4 {
+    width: 150px;
+    height: 100px;
+    transition: all 200ms linear;
+    box-shadow: rgb(135, 124, 136) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
